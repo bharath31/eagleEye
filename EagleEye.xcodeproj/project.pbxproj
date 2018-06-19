@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72E35CB1A23EFBC952EFFC8 /* Pods_EagleEye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FFA92987F600468BEE8D31 /* Pods_EagleEye.framework */; };
 		E2B9E6B120D0F2B90093300A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B9E6B020D0F2B90093300A /* AppDelegate.swift */; };
 		E2B9E6B320D0F2B90093300A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B9E6B220D0F2B90093300A /* ViewController.swift */; };
 		E2B9E6B620D0F2B90093300A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B9E6B420D0F2B90093300A /* Main.storyboard */; };
 		E2B9E6B820D0F2C10093300A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B9E6B720D0F2C10093300A /* Assets.xcassets */; };
 		E2B9E6BB20D0F2C10093300A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B9E6B920D0F2C10093300A /* LaunchScreen.storyboard */; };
+		E2B9E6C320D0FBA60093300A /* EagleEye.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = E2B9E6C220D0FA410093300A /* EagleEye.entitlements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04FAA2159DE84E23C982A86D /* Pods-EagleEye.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EagleEye.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EagleEye/Pods-EagleEye.debug.xcconfig"; sourceTree = "<group>"; };
+		24FFA92987F600468BEE8D31 /* Pods_EagleEye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EagleEye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		301458F1D29A79563CA17B5B /* Pods-EagleEye.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EagleEye.release.xcconfig"; path = "Pods/Target Support Files/Pods-EagleEye/Pods-EagleEye.release.xcconfig"; sourceTree = "<group>"; };
 		E2B9E6AD20D0F2B90093300A /* EagleEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EagleEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B9E6B020D0F2B90093300A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2B9E6B220D0F2B90093300A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		E2B9E6B720D0F2C10093300A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2B9E6BA20D0F2C10093300A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2B9E6BC20D0F2C10093300A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B9E6C220D0FA410093300A /* EagleEye.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EagleEye.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72E35CB1A23EFBC952EFFC8 /* Pods_EagleEye.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34E3D80506874C7BDC4FA4D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04FAA2159DE84E23C982A86D /* Pods-EagleEye.debug.xcconfig */,
+				301458F1D29A79563CA17B5B /* Pods-EagleEye.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		820B07137508F58CA02579AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24FFA92987F600468BEE8D31 /* Pods_EagleEye.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2B9E6A420D0F2B80093300A = {
 			isa = PBXGroup;
 			children = (
 				E2B9E6AF20D0F2B90093300A /* EagleEye */,
 				E2B9E6AE20D0F2B90093300A /* Products */,
+				34E3D80506874C7BDC4FA4D0 /* Pods */,
+				820B07137508F58CA02579AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +80,7 @@
 		E2B9E6AF20D0F2B90093300A /* EagleEye */ = {
 			isa = PBXGroup;
 			children = (
+				E2B9E6C220D0FA410093300A /* EagleEye.entitlements */,
 				E2B9E6B020D0F2B90093300A /* AppDelegate.swift */,
 				E2B9E6B220D0F2B90093300A /* ViewController.swift */,
 				E2B9E6B420D0F2B90093300A /* Main.storyboard */,
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2B9E6BF20D0F2C10093300A /* Build configuration list for PBXNativeTarget "EagleEye" */;
 			buildPhases = (
+				814DFEAC8276113528B56542 /* [CP] Check Pods Manifest.lock */,
 				E2B9E6A920D0F2B90093300A /* Sources */,
 				E2B9E6AA20D0F2B90093300A /* Frameworks */,
 				E2B9E6AB20D0F2B90093300A /* Resources */,
+				1EB773C3C2761C551AD04211 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +125,11 @@
 				TargetAttributes = {
 					E2B9E6AC20D0F2B90093300A = {
 						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B9E6C320D0FBA60093300A /* EagleEye.entitlements in Resources */,
 				E2B9E6BB20D0F2C10093300A /* LaunchScreen.storyboard in Resources */,
 				E2B9E6B820D0F2C10093300A /* Assets.xcassets in Resources */,
 				E2B9E6B620D0F2B90093300A /* Main.storyboard in Resources */,
@@ -129,6 +164,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EB773C3C2761C551AD04211 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EagleEye/Pods-EagleEye-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Branch/Branch.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Branch.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EagleEye/Pods-EagleEye-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814DFEAC8276113528B56542 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EagleEye-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2B9E6A920D0F2B90093300A /* Sources */ = {
@@ -278,10 +352,14 @@
 		};
 		E2B9E6C020D0F2C10093300A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FAA2159DE84E23C982A86D /* Pods-EagleEye.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EagleEye/EagleEye.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R63EM248DP;
 				INFOPLIST_FILE = EagleEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,10 +373,14 @@
 		};
 		E2B9E6C120D0F2C10093300A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301458F1D29A79563CA17B5B /* Pods-EagleEye.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EagleEye/EagleEye.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R63EM248DP;
 				INFOPLIST_FILE = EagleEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

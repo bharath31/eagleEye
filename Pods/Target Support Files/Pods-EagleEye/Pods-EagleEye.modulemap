@@ -1,0 +1,6 @@
+framework module Pods_EagleEye {
+  umbrella header "Pods-EagleEye-umbrella.h"
+
+  export *
+  module * { export * }
+}
