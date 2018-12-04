@@ -12,7 +12,12 @@
 		</dict>
 	</array>
 	<key>branch_key</key>
-	<string>key_live_feB6CpJCnPWmPOYDSEXH3gcivvejnkvG</string>
+	<dict>
+		<key>test</key>
+		<string>key_test_mcD0DbTsfU4lVV0BUUmEiajayynnlax1</string>
+		<key>live</key>
+		<string>key_live_feB6CpJCnPWmPOYDSEXH3gcivvejnkvG</string>
+	</dict>
 	<key>branch_app_domain</key>
 	<string>c3w6.app.link</string>
 	<key>CFBundleDevelopmentRegion</key>
