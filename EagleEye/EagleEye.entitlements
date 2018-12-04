@@ -4,6 +4,8 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
+		<string>applinks:eagle-alternate.test-app.link</string>
+		<string>applinks:eagle.test-app.link</string>
 		<string>applinks:eagle-alternate.app.link</string>
 		<string>applinks:eagle.app.link</string>
 	</array>

@@ -8,6 +8,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // listener for Branch Deep Link data
+        Branch.setUseTestBranchKey(true)
+        Branch.getInstance().setDebug()
         Branch.getInstance().initSession(launchOptions: launchOptions) { (params, error) in
             // do stuff with deep link data (nav to page, display content, etc)
             print(params as? [String: AnyObject] ?? {})
