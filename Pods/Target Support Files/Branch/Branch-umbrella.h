@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "BNCAppleReceipt.h"
 #import "BNCApplication.h"
 #import "BNCAvailability.h"
 #import "BNCCallbacks.h"
@@ -22,7 +23,6 @@
 #import "BNCDeviceInfo.h"
 #import "BNCEncodingUtils.h"
 #import "BNCError.h"
-#import "BNCFabricAnswers.h"
 #import "BNCFieldDefines.h"
 #import "BNCKeyChain.h"
 #import "BNCLinkCache.h"
@@ -35,6 +35,7 @@
 #import "BNCSystemObserver.h"
 #import "BNCThreads.h"
 #import "BNCURLBlackList.h"
+#import "BNCUserAgentCollector.h"
 #import "Branch+Validator.h"
 #import "Branch.h"
 #import "BranchActivityItemProvider.h"
@@ -49,8 +50,6 @@
 #import "BranchLinkProperties.h"
 #import "BranchShareLink.h"
 #import "BranchUniversalObject.h"
-#import "BranchView.h"
-#import "BranchViewHandler.h"
 #import "NSMutableDictionary+Branch.h"
 #import "NSString+Branch.h"
 #import "UIViewController+Branch.h"

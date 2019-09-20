@@ -171,17 +171,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EagleEye/Pods-EagleEye-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Branch/Branch.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EagleEye/Pods-EagleEye-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Branch.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EagleEye/Pods-EagleEye-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EagleEye/Pods-EagleEye-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EagleEye/Pods-EagleEye-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		814DFEAC8276113528B56542 /* [CP] Check Pods Manifest.lock */ = {

@@ -1,7 +1,7 @@
 PODS:
-  - Branch (0.25.9):
-    - Branch/Core (= 0.25.9)
-  - Branch/Core (0.25.9)
+  - Branch (0.28.1):
+    - Branch/Core (= 0.28.1)
+  - Branch/Core (0.28.1)
 
 DEPENDENCIES:
   - Branch
@@ -11,8 +11,8 @@ SPEC REPOS:
     - Branch
 
 SPEC CHECKSUMS:
-  Branch: 4a6f15f781bc40b19076a4fc4f2cd3c9eaad1338
+  Branch: edf6cab0cecb437d6a6abba3a25d0a0fa6f277ec
 
 PODFILE CHECKSUM: 68ce685c7fd45be22779d9e4b403cc1178ed8ce7
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5
